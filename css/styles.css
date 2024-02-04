@@ -74,7 +74,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-   padding: 24px 0;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -105,7 +105,11 @@ ul {
 .title-button {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(47, 48, 58, 0.4)), url(../images/people-office.jpg);
+background-size: cover;
 }
+.svg-section{    padding: 120px 0;}
+.svg-container{ padding: 0px 156px 0px 156px;}
 .title {
   color: #fff;
   text-align: center;
