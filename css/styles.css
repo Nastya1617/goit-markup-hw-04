@@ -381,6 +381,7 @@ ul {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .column {
   margin-right: 120px;
@@ -432,6 +433,9 @@ ul {
 .media-footer {
   width: 40px;
   height: 40px;
+}
+.fill {
+  fill: #f4f4fd;
 }
 .media {
   width: 100%;
