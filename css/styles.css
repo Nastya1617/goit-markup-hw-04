@@ -380,7 +380,7 @@ ul {
   padding: 100px 0;
 }
 .footer-container {
-  padding: 0px 156px 0px 156px;
+  display: flex;
 }
 .column {
   margin-right: 120px;
@@ -411,6 +411,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+}
+.social {
+  margin-left: auto;
 }
 .social-footer {
   font-weight: 500;
