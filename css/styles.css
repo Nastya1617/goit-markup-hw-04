@@ -382,6 +382,9 @@ ul {
 .footer-container {
   padding: 0px 156px 0px 156px;
 }
+.column {
+  margin-right: 120px;
+}
 .logo-footerrr {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -420,6 +423,8 @@ ul {
 .social-media-footer {
   display: flex;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 .media-footer {
   width: 40px;
@@ -433,8 +438,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media:hover,
