@@ -47,7 +47,7 @@ ul {
 .logo-nav {
   padding: 25px 0px 25px 0px;
   display: flex;
-   align-items: center;/
+  align-items: center;
 }
 .logo {
   color: #4d5ae5;
@@ -76,22 +76,26 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  position: relative;
-  color: #404bbf; 
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.nav-link::after{content:"";
-  width: 100%;
-   position: absolute;
-   left: 0;
-   bottom: -1px;
-   height: 4px;
-   background-color: #404bbf; 
-   border-radius: 2px;
+  position: relative; 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.current{
+position: relative;
+color: #404bbf;
+}
+.current::after{
+content: "";
+position: absolute;
+background-color: #404bbf;
+border-radius: 2px;
+height: 4px;
+width: 100%;
+left: 0;
+bottom: -1px;
 }
 .address {
   font-style: normal;
