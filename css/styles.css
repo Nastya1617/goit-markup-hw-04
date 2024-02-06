@@ -133,6 +133,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
+.title-container{max-width: 1440px;}
 .title {
   color: #fff;
   text-align: center;
@@ -227,9 +228,6 @@ ul {
 .img-team {
   margin-right: 24px;
 }
-.team-container li {
-  margin-right: 24px;
-}
 .team-container li:last-child {
   margin-right: 0px;
 }
@@ -272,6 +270,7 @@ ul {
 .svg-team {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 .team-svg {
   width: 100%;
