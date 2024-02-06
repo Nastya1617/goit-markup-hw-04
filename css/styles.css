@@ -131,9 +131,10 @@ ul {
     url(../images/people-office.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  margin: 0 auto;
+  max-width: 1440px;
 }
-.title-container{max-width: 1440px;}
 .title {
   color: #fff;
   text-align: center;
